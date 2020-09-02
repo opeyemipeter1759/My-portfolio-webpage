@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Opeyemi Peter who is your theTechGent on Twitter app" />
+
+    <meta
+      name="description"
+      content="Opeyemi Peter is a front-end developer based in Ibadan Nigeria. I develop simple, scalable and functional web products"
+    />
+
+    <title>Opeyemi Peter | FrontEnd Developer</title>
+
+    <link rel="icon" href="./assets/o.png"/>
+
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+
+    <!-- Open sans font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--Robot font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!--Animate css library-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
+    <!--Bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!--Shortcut icon-->
+    <link rel="shortcut icon" type="image/png" href="/assets/Logo.png" />
+
+    <!--Personal stylesheet-->
+    <link rel="stylesheet" href="./style.css" />
+
+  </head>
+  <body>
+    <!--All things header-->
+    <header id="header" class="d-flex justify-content-between flex-wrap">
+      <img
+        src="./assets/o.png"
+        alt="Website logo"
+        class="logo"
+        width="50"
+        height="50"
+      />
+      <nav id="navbar">
+        <ul class="noListDisplay">
+          <li class="listItem">
+            <span class="spanNo">01</span
+            ><a href="#about" class="link">About</a>
+          </li>
+          <li class="listItem">
+            <span class="spanNo">02</span
+            ><a href="#experience" class="link">Experience</a>
+          </li>
+          <li class="listItem">
+            <span class="spanNo">03</span><a href="#work" class="link">Work</a>
+          </li>
+          <!-- <li class="listItem">
+            <a href="#blog" class="link"> Blog</a>
+          </li> -->
+          <li class="listItem">
+            <span class="spanNo">04</span
+            ><a href="#contact" class="link">Contact</a>
+          </li>
+          <li class="listItem">
+            <!-- <a
+              href="./assets/resume.pdf"
+              class="resume link"
+              >Resume</a
+            > -->
+          </li>
+        </ul>
+      </nav>
+      <div class="hamburger-icon noIcon">
+        <img src="./assets/icon-hamburger.svg" alt="hamburger menu for mobile navigation" />
+      </div>
+    </header>
+    <!--Mobile Navigation Bar-->
+    <div class="mobile-navbar none">
+      <div class="close-icon d-flex justify-content-end align-items-end">
+        <img src="./assets/icon-close.svg" alt="Close icon" class="p-3" />
+      </div>
+      <ul class="noListDisplay">
+        <li class="listItem mobileItems">
+          <span class="spanNo mobileSpan">01</span
+          ><a href="#about" class="link">About</a>
+        </li>
+        <li class="listItem mobileItems">
+          <span class="spanNo mobileSpan">02</span
+          ><a href="#experience" class="link">Experience</a>
+        </li>
+        <li class="listItem mobileItems">
+          <span class="spanNo mobileSpan">03</span
+          ><a href="#work" class="link">Work</a>
+        </li>
+        <!-- <li class="listItem">
+          <a href="#blog" class="link"> Blog</a>
+        </li> -->
+        <li class="listItem mobileItems">
+          <span class="spanNo mobileSpan">04</span
+          ><a href="#contact" class="link">Contact</a>
+        </li>
+        <li class="listItem mobileItems">
+          <!-- <a
+            href="./assets/resume.pdf"
+            class="resume link mobileCv"
+            >Resume</a
+          > -->
+        </li>
+      </ul>
+    </div>
+    <!--Bootstrap container for remaining content-->
+    <div class="container">
+      <!--Hero Section-->
+      <section id="hero" class=" animate__animated animate__fadeInUp mt-4">
+        <h1 class="hero-heading">Hi there, my name is</h1>
+        <h2 class="hero-subheading mt-3">Opeyemi Peter</h2>
+        <h4 class="heroCodeSub mt-3">I give to life to designs through code</h4>
+        <p class="hero-description mt-3">
+          I am a frontend developer based in Ibadan, Nigeria. I have an
+          aspiration to be a full-stack developer. Until then, I write clean, elegant and
+          efficient code for the client's side with HTML, CSS and Javascript while on the path to learn Javascript frame work and server-side language.
+        </p>
+
+
+        </p>
+        <button class="btn hero-btn mt-5">
+          <a href="#contact">get in touch</a>
+        </button>
+      </section>
+
+      <!--About Section-->
+      <h1 class="opaqueBackground">About Me</h1>
+      <section id="about" class="animate__animated animate__fadeInUp mt-5">
+        <h1 class="main-heading"><span>01</span>About me&nbsp;__</h1>
+        <div class="aboutContent mt-5">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <p class="aboutText">
+                Hi there! I am Opeyemi Peter. I am a frontend developer who resides in Ibadan, Nigeria. I describe myself as a passionate developer who loves coding, open source, and the web platform.
+                As a software engineer, I enjoy bridging the gap between engineering and design — through my keen eye for design to create a beautiful product. My goal is to always build web apps that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences. <br /><br />
+                I am currently taking part <span class="dufu">@Dufuna Code Camp</span>
+                where I am flexibly progressing with my web development learnings as I contribute to various projects and work on live tasks.
+                <br> Here are some of the technologies I
+                have been working with lately:
+                <ul class="techs mt-4">
+                  <div class="row">
+                    <div class="col-4">
+                      <li>Html</li>
+                      <li>Css</li>
+                      <li>Js(ES6+)</li>
+                    </div>
+                    <div class="col-4">
+                      <li>VCS (Git)</li>
+                      <li>Bootstrap</li>
+                      <li>Netlify</li>
+                    </div>
+                  </div>
+                </ul>
+              </p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="./assets/aboutme.jpeg" alt="Opeyemi Peter Picture" class="img-fluid rounded"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+            <!--Experience Section-->
+            <h1 class="opaqueBackground">Experience</h1>
+            <section id="experience" class=" animate__animated animate__fadeInUp mt-5">
+              <h1 class="main-heading"><span>02</span>Where I've Worked&nbsp;__</h1>
+              <div class="row tabs">
+                <!--Tab list column-->
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                  <div class="nav flex-column nav-pills workPlaces" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <!--Tab 1-->
+                    <span>
+                      <a class="job_tab active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Dufuna Code Camp</a>
+                    </span>
+                    <!--Tab 2-->
+                    <span>
+                      <a class="job_tab" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Fire Switch Technologies</a>
+                    </span>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 smallMar">
+                  <!--Tab list content-->
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <!--Tab 1 content-->
+                    <div class="tab-pane fade show active jobDesc" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <h4 class="job-heading">Code Camper  <span>@Dufuna Code Camp</span></h4>
+                      <h5 class="job-date mt-3">July 2020 - Present</h5>
+                      <ul class="mt-3">
+                        <li>Worked with a team of 6 to build a system for organisations that provides advisory to recent graduates and people in the early stage of their career who want to start a career in tech.</li>
+                        <li>Worked on tasks for code proficiency.</li>
+                      </ul>
+                     </div>
+                     <!--Tab 2 content-->
+                    <div class="tab-pane fade jobDesc" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <h4 class="job-heading">FrontEnd Developer  <span>@Fire-Switch technologies</span></h4>
+                      <h5 class="job-date mt-3">January 2020 - July 2020</h5>
+                      <ul class="mt-3">
+                        <li>Created a food vendor client side website with food ordering features and others.</li>
+                        <li>Created a logistics clients side website with ordering, tracking features etc.</li>
+                      <li>Helped with teaching students <span class="dufu">@Fire-switch Academy</span>  HTML & CSS. </li>
+                      <li>Learnt some core web technologies like js, Netlify.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+      <!--Projects Section-->
+      <h1 class="opaqueBackground">Projects</h1>
+      <section id="work" class="animate__animated animate__fadeInUp mt-5">
+        <h1 class="main-heading"><span>02</span>Things I've Built&nbsp;__</h1>
+             <div class="row featuredProj mt-5">
+              <div class="col-lg-7 col-md-6">
+              <img src="./assets/voiceoflight.png"  class="img-fluid" alt="voice of light church website">
+               </div>
+                  <div class="col-lg-5 col-md-6 proj">
+                   <h5 class="projTitle">featured project</h5>
+                    <h1 class="projName">A Church Website</h1>
+                       <p class="projDetails">
+                         A church website which includes programme registration page & Social media integration.
+                        </p>
+                          <ul class="technologies">
+                            <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Bootstrap</li>
+                              <li>Javascript (Es6) </li>
+                              <li>Github</li>
+                              <li>Netlify</li>
+                          </ul>
+                           <ul class="fontLinks">
+                               <span><a href="https://github.com/opeyemipeter1759/vlcnn" target="_blank">
+                                <i class="fab fa-github"></i>
+                                 </a></span>
+                                 <span>
+                                 <a href="https://vlcnn.netlify.app/" target="_blank">                                          <i class="fas fa-external-link-alt"></i>
+                                 </a>
+                                  </span>
+                           </ul> 
+                  </div>
+              </div>
+    <!--Featured Project 2-->
+      <div class="row featuredProj mt-5">
+         <div class="col-lg-5 col-md-6 leftProj">
+         <h5 class="projTitle">featured project</h5>
+            <h1 class="projName">Car Landing Page</h1>
+                 <p class="projDetails left ml-2">
+                       A one paged car landing website + CSS animation 
+                       </p>
+       <ul class="technologies">
+            <li>HTML</li>
+              <li>CSS</li>
+                 <li>Github</li>
+                   <li>Netlify</li>
+                   </ul>
+            <ul class="fontLinks">
+                <span><a href="https://github.com/opeyemipeter1759/carlandingsinglepaged" target="_blank">
+                     <i class="fab fa-github"></i>
+                        </a></span>
+                          <span>
+                         <a href="https://carlandingpage.netlify.app/" target="_blank">
+                             <i class="fas fa-external-link-alt"></i>
+                              </a>
+                               </span>
+                     </ul> 
+                         </div>
+                          <div class="col-lg-7 col-md-6">
+                         <img src="./assets/carlanding.png" class="img-fluid" alt="Featuredproject 1">
+                            </div>
+                          </div>
+                             <!--Featured Project 3-->
+                            <div class="row featuredProj mt-5">
+                              <div class="col-lg-7 col-md-6">
+                                <img src="./assets/yourtunnes.png" class
+                                ="img-fluid" alt="Featuredproject 1">
+                              </div>
+                              <div class="col-lg-5 col-md-6 mb-5 proj">
+                                <h5 class="projTitle">featured project</h5>
+                                <h1 class="projName">yourTunnes App</h1>
+                                <p class="projDetails">
+                                yourTunnes is a clone & replica of itunes website, using HTML & CSS.
+                                </p>
+                                <ul class="technologies">
+                                <li>Vuejs</li>
+                                  <li>Github</li>
+                                  <li>Netlify</li>
+                                  <li>Bootstrap</li>
+                                </ul>
+                                <ul class="fontLinks">
+                                  <span><a href="https://github.com/opeyemipeter1759/yourTunes" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                  </a></span>
+                                  <span>
+                                    <a href="https://thetechgentmytunes.netlify.app/" target="_blank">
+                                      <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                  </span>
+                                </ul> 
+                              </div>
+                          <div class="row featuredProj mt-5">
+                          <div class="col-lg-5 col-md-6 leftProj">
+                          <h5 class="projTitle">featured project</h5>
+                          <h1 class="projName">Loan Calculator</h1>
+                          <p class="projDetails left">
+                          Loan Calculator calculates the monthly payment, the amount of interest paid, the total interest with given years of repayment. Enter the data and the result will be generated.
+                          </p>
+                          <ul class="technologies">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Javascript (Es6) </li>
+                            <li>Netlify</li>
+                          </ul>
+                          <ul class="fontLinks">
+                            <span><a href="https://github.com/opeyemipeter1759/loancalculator" target="_blank">
+                              <i class="fab fa-github"></i>
+                            </a></span>
+                            <span>
+                              <a href="https://loancalculatorbythetechgent.netlify.app/" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                              </a>
+                            </span>
+                          </ul> 
+                          </div>
+                          <div class="col-lg-7 col-md-6">
+                            <img src="./assets/loancal.png" class
+                            ="img-fluid" alt="Featuredproject 1">
+                          </div>
+                        </div>
+                        <div class="row featuredProj mt-5">
+                          <div class="col-lg-7 col-md-6">
+                            <img src="./assets/yourtunnes.png" class
+                            ="img-fluid" alt="Featuredproject 1">
+                          </div>
+                          <div class="col-lg-5 col-md-6 mb-5 proj">
+                            <h5 class="projTitle">featured project</h5>
+                            <h1 class="projName">yourTunnes App</h1>
+                            <p class="projDetails">
+                            yourTunnes is a clone & replica of itunes website, using HTML, CSS & Javascript.
+                            </p>
+                            <ul class="technologies">
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Javascript</li>
+                              <li>Github</li>
+                              <li>Netlify</li>
+                              <li>Bootstrap</li>
+                            </ul>
+                            <ul class="fontLinks">
+                              <span><a href="https://github.com/opeyemipeter1759/yourTunes" target="_blank">
+                                <i class="fab fa-github"></i>
+                              </a></span>
+                              <span>
+                                <a href="https://thetechgentmytunes.netlify.app/" target="_blank">
+                                  <i class="fas fa-external-link-alt"></i>
+                                </a>
+                              </span>
+                            </ul> 
+                          </div>
+              </div>
+        </section>
+
+
+<!--Other noteworthy projects section-->
+<section id="others" class="mt-5">
+  <div class="otherProjHeader d-flex flex-column justify-content-center align-items-center text-capitalize text-center">
+    <h1>Other Noteworthy Projects</h1>
+  </div>
+  <!--Other Projects-->
+<div class="others d-flex justify-content-between align-items-center mt-5">
+  <!--Row 1 project 1-->
+  <div class="otherProject">
+    <div class="icons">
+      <i class="fas fa-folder-open folder">
+    </i>
+    <div class="rightIcons">
+      <a href="https://github.com/opeyemipeter1759/DOM-tasklist-project" target="_blank">
+        <i class="fab fa-github right"></i>
+      </a>
+      <a href="https://tasklistbythetechgent.netlify.app/" target="_blank">
+        <i class="fas fa-external-link-alt right"></i>
+      </a>
+    </div>
+   </div>
+    <h1 class="title mt-3">Task List</h1>
+    <p class="subtitle mt-3">A very simple Javascript to track task. it tested my knowledge of DOM manipulation.</p>
+    <ul>
+      <li>Javascript</li>
+      <li>Html</li>
+      <li>CSS</li>
+      <li>Github</li>
+      <li>Netlify</li>
+    </ul>
+  </div> 
+
+   <!--Row 1 project 2--> 
+   <div class="otherProject">
+    <div class="icons">
+      <i class="fas fa-folder-open folder">
+    </i>
+    <div class="rightIcons">
+      <a href="https://github.com/opeyemipeter1759/opeyemipeter_teamsentry" target="_blank">
+        <i class="fab fa-github right"></i>
+      </a>
+      <a href="https://tindogbythetechgent.netlify.app/"  target="_blank">
+        <i class="fas fa-external-link-alt right"></i>
+      </a>
+    </div>
+   </div>
+    <h1 class="title mt-3">Tin Dog</h1>
+    <p class="subtitle mt-3">This was created while coding along with Angela Yu at her coding boot-camp.</p>
+       <ul>
+      <li>Html</li>
+      <li>CSS</li>
+      <li>Github</li>
+      <li>Netlify</li>
+    </ul>
+  </div>
+
+    <!--Row 1 project 3 --> 
+    <div class="otherProject">
+      <div class="icons">
+        <i class="fas fa-folder-open folder">
+      </i>
+      <div class="rightIcons">
+        <a href="https://github.com/opeyemipeter1759/javascript-stopwatch" target="_blank">
+          <i class="fab fa-github right"></i>
+        </a>
+        <a href="https://opeyemipeterstopwatch.netlify.app//" target="_blank">
+          <i class="fas fa-external-link-alt right"></i>
+        </a>
+      </div>
+     </div>
+      <h1 class="title mt-3">Javascript Stopwatch App</h1>
+      <p class="subtitle mt-3"> An app to help you time yourself while on task. Built while trying my hands on DOM Manipulations. </p>
+      <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>Github</li>
+      <li>Netlify</li>
+      </ul>
+    </div> 
+
+</div>
+
+<!--Other Projects 2-->
+<div class="others d-flex justify-content-between align-items-center mt-5">
+  <!--Row 2 project 1-->
+  <div class="otherProject">
+    <div class="icons">
+      <i class="fas fa-folder-open folder">
+    </i>
+    <div class="rightIcons">
+      <a href="https://github.com/opeyemipeter1759/graphic-gallery-page" target="_blank">
+        <i class="fab fa-github right"></i>
+      </a>
+      <a href="https://graphicgalleryportfolio.netlify.app/" target="_blank">
+        <i class="fas fa-external-link-alt right"></i>
+      </a>
+    </div>
+   </div>
+    <h1 class="title mt-3">Graphic Gallery Portfolio  </h1>
+    <p class="subtitle mt-3">A description of me with a simple graphic gallery design without a text.</p>
+    <ul>
+      <li>Html</li>
+      <li>Css3</li>
+      <li>Bootstrap grids</li>
+    </ul>
+  </div> 
+
+   <!--Row 2 project 2--> 
+   <div class="otherProject">
+    <div class="icons">
+      <i class="fas fa-folder-open folder">
+    </i>
+    <div class="rightIcons">
+      <a href="https://github.com/opeyemipeter1759/flyo" target="_blank">
+        <i class="fab fa-github right"></i>
+      </a>
+      <a href="https://flyofromfrontend.netlify.app/" target="_blank">
+        <i class="fas fa-external-link-alt right"></i>
+      </a>
+    </div>
+   </div>
+    <h1 class="title mt-3">Flyo </h1>
+      <p class="subtitle mt-3">A frontendmentor design inspiration that I recreated myself using html and css</p> 
+
+    <ul>
+      <li>HTML</li>
+      <li>HTML Progressbar</li>
+      <li>CSS</li>
+      <li>Media Queries</li>
+    </ul>
+  </div>
+
+    <!--Row 2 project 3 --> 
+    <div class="otherProject">
+      <div class="icons">
+        <i class="fas fa-folder-open folder">
+      </i>
+      <div class="rightIcons">
+        <a href="https://github.com/opeyemipeter1759/p-n-p" target="_blank">
+          <i class="fab fa-github right"></i>
+        </a>
+        <a href="https://friendly-babbage-26b504.netlify.app/" target="_blank">
+          <i class="fas fa-external-link-alt right"></i>
+        </a>
+      </div>
+     </div>
+      <h1 class="title mt-3">Leisures and Pleasures</h1>
+      <p class="subtitle mt-3"> A simple landing page for a relaxation and resort centre.</p>
+      <ul>
+        <li>Html</li>
+        <li>Css</li>
+      </ul>
+    </div> 
+
+</div>
+
+
+</section>
+
+        <!--Contact Section-->
+        <section id="contact" class="animate__animated animate__fadeInUp ">
+          
+            <h1 class="main-heading"><span>04</span>What's next?</h1>
+            <h2 class="contactSubHead">Get in touch</h2>
+            <p class="contact-details">I am currently looking for job opportunities. Kindly reach out to me if there are job opportunities you'd love me to know about.</p>
+            <button class="hello"><a href="mailto:opeyemiadebowale1759@gmail.com">Say Hello</a</button>
+        </section>
+
+
+        <!--Footer Section-->
+        <footer id="footer">
+            <div class="socials">
+            <ul>
+              <li><a href="https://twitter.com/theTech_Gent?s=09"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/opeyemi-peter-okunola-555506147/"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/opeyemipeter1759/"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <p>Inspired by <span><a href="https://mobolaji-ola.netlify.app/">Mo_bolaji_Ola</a></span> & <span> <a href="https://twitter.com/EfereyanK">Efereyan Karen</a></span></p>
+            <p>Built by <span> <a href="https://twitter.com/theTech_Gent?s=09">Opeyemi Peter.</a></span>  &copy;2020.  All rights reserved</p>
+          </div>
+        </footer>
+
+        <!--back to top button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+
+    </div>
+
+    <!--Bootstrap js-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

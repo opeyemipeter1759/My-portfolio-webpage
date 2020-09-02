@@ -157,7 +157,7 @@ a.link {
 .hero-btn a {
   text-transform: capitalize;
   color: #64ffda;
-  border: thick double#64ffda;
+  border: 2mm ridge#64ffda;
   border-radius: 8px;
   padding: 1rem 1.15rem;
   text-decoration: none;
@@ -412,12 +412,12 @@ a.job_tab.active {
 }
 #contact button {
   background-color: #0f3b57;
-  border: thick double #64ffda;
+  border: 2mm ridge #64ffda;
 }
 .hello {
   margin-top: 1rem;
   text-transform: capitalize;
-  border: 2px thick double #64ffda;
+  border: 2px 2mm ridge #64ffda;
   border-radius: 8px;
   padding: 0.95rem 1.1rem;
   text-align: center;

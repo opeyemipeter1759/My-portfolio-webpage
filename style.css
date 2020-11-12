@@ -1,9 +1,9 @@
 :root {
   --font-size: 16px;
   --font-weight: 400;
-  --primary: #040f20;
-  --secondary: rgb(100, 255, 218);
-  --tertiary: #1e5690;
+  --primary: #0b0b0c;
+  --secondary: rgba(121, 252, 200, 0.582);
+  --tertiary: #a7a7a700;
 }
 /**resets**/
 * {
@@ -48,7 +48,7 @@ p {
 }
 .opaqueBackground {
   font-size: 5rem;
-  color: #d9e3e5;
+  color: #fbfdfd;
   opacity: 0.03;
   position: relative;
   bottom: -7rem;
@@ -57,11 +57,11 @@ p {
   margin-left: 2.5rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: rgb(204, 214, 246);
+  color: rgb(255, 255, 255);
 }
 
 .main-heading span {
-  color: rgb(100, 255, 218);
+  color: var(--second);
   padding-right: 0.5rem;
 }
 
@@ -104,7 +104,7 @@ a.link {
 }
 .resume {
   color: rgb(100, 255, 218);
-  border: 2px dotted #64ffda;
+  border: 2px ridge #64ffda;
   border-radius: 8px;
   padding: 0.75rem 1rem;
   font-size: 14px;

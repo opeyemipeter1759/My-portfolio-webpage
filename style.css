@@ -30,11 +30,11 @@ li {
 
 body {
   background-color: var(--primary);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .main-heading span:after {
-  content: '.';
+  content: ".";
 }
 .noIcon,
 .none {
@@ -100,7 +100,7 @@ a.link {
   padding-right: 0;
 }
 .spanNo::after {
-  content: '.';
+  content: ".";
 }
 .resume {
   color: rgb(100, 255, 218);
@@ -145,7 +145,7 @@ a.link {
 }
 .hero-subheading::after,
 .heroCodeSub::after {
-  content: '.';
+  content: ".";
 }
 .hero-description {
   color: rgb(204, 214, 246);
@@ -182,7 +182,7 @@ span.dufu {
   padding-bottom: 0.5rem;
 }
 .techs li:before {
-  content: '▹';
+  content: "▹";
   padding-right: 1rem;
   color: #64ffda;
 }
@@ -231,7 +231,7 @@ a.job_tab.active {
   line-height: 1.4rem;
 }
 .jobDesc ul li::before {
-  content: '▹';
+  content: "▹";
   font-size: 1.5rem;
   position: absolute;
   left: 0;
@@ -321,7 +321,7 @@ a.job_tab.active {
   color: rgb(204, 214, 246);
   margin-right: 1.7rem;
 }
-.fontLinks span a:hover{
+.fontLinks span a:hover {
   background: rgba(255, 215, 215, 0.233);
 }
 .fontLinks span a i {
